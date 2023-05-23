@@ -1,0 +1,9 @@
+@tailwind utilities;
+
+@layer utilities {
+  .btn-animation {
+    translate: 0 -0.3rem;
+
+    transition: .8s;
+  }
+}
