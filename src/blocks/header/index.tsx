@@ -3,7 +3,7 @@ import * as C from "@/components";
 
 export default function HeaderBlock() {
   return (
-    <header className="flex items-center justify-between w-full h-24 px-64">
+    <header className="flex items-center justify-between w-full h-24 px-64 mb-20">
       <Image
         src="logo.svg"
         alt="logo"

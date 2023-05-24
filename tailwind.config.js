@@ -17,6 +17,8 @@ module.exports = {
         "button-hover-background-color-secondary": "#7C91FF",
       },
       textColor: {
+        "color-primary": "#6880FF",
+        "color-secondary": "#6880FF",
         "button-color-primary": "#fff",
         "button-color-secondary": "#fff",
         "button-hover-color-primary": "#fff",
