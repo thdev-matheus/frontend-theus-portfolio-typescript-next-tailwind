@@ -12,6 +12,16 @@
 }
 
 html {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  overflow: hidden;
+
   scroll-behavior: smooth;
 }
 
@@ -27,6 +37,9 @@ body {
   overflow: hidden auto;
 
   background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%);
+
+  padding-bottom: 2rem;
+
   color: #fff;
 }
 

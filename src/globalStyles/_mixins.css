@@ -37,6 +37,10 @@
     transition: .8s;
   }
 
+  .headerbg {
+    background: linear-gradient(180deg, #0C0C0C 0%, #0F0F0Ffa 100%);
+  }
+
   @media (max-width: 767px) {
     .title-1 {
       font-weight: bold;
