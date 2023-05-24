@@ -24,6 +24,8 @@ body {
   align-items: center;
   justify-content: flex-start;
 
+  overflow: hidden auto;
+
   background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%);
   color: #fff;
 }
