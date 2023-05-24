@@ -4,8 +4,8 @@ import * as C from "@/components";
 export default function HeaderBlock() {
   return (
     <>
-      <div className="w-full h-24 mb-44"></div>
-      <header className="fixed flex items-center justify-between w-full h-24 headerbg">
+      <div className="w-full h-24 max-sm:h-36 max-sm:mb-48 mb-44"></div>
+      <header className="fixed flex items-center justify-between w-full h-24 max-sm:h-36 max-sm:pt-4 max-sm:flex-col headerbg">
         <Image
           src="logo.svg"
           alt="logo"
