@@ -7,6 +7,7 @@ export default function Home() {
       <B.WelcomeBlock />
       <B.AboutMeBlock />
       <B.StacksBlock />
+      <B.ProjectsBlock />
     </>
   );
 }

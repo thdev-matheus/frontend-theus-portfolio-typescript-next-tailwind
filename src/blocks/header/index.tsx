@@ -15,13 +15,22 @@ export default function HeaderBlock() {
         />
 
         <nav className="flex gap-12">
-          <a href="#about" className="font-semibold">
+          <a
+            href="#about"
+            className="font-semibold hover:btn-animation hover:text-color-primary"
+          >
             Sobre
           </a>
-          <a href="#stacks" className="font-semibold">
+          <a
+            href="#stacks"
+            className="font-semibold hover:btn-animation hover:text-color-primary"
+          >
             Stacks
           </a>
-          <a href="#projects" className="font-semibold">
+          <a
+            href="#projects"
+            className="font-semibold hover:btn-animation hover:text-color-primary"
+          >
             Projetos
           </a>
         </nav>
