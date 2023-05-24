@@ -5,6 +5,7 @@ export default function Home() {
     <>
       <B.HeaderBlock />
       <B.WelcomeBlock />
+      <B.AboutMeBlock />
     </>
   );
 }
