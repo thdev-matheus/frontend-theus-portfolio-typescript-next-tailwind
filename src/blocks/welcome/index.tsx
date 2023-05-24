@@ -3,7 +3,7 @@ import * as C from "@/components";
 
 export default function WelcomeBlock() {
   return (
-    <section className="flex justify-center w-full px-64 mb-20">
+    <section className="flex justify-center w-full mb-20">
       <div className="flex flex-col w-1/2 gap-4 pr-8">
         <div>
           <small className="label text-color-primary">

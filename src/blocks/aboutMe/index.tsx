@@ -2,7 +2,7 @@ export default function AboutMeBlock() {
   return (
     <section
       id="about"
-      className="flex justify-center w-full px-64 mb-20 scroll-mt-24"
+      className="flex justify-center w-full mb-20 scroll-mt-24"
     >
       <div className="w-1/3">
         <h2 className="leading-none title-2">Sobre mim</h2>
