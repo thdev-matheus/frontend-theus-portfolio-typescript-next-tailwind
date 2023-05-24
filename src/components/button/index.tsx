@@ -30,7 +30,7 @@ const Button = forwardRef<HTMLButtonElement, T.IButtonProps>(
       <button
         {...rest}
         ref={ref}
-        className={`w-full h-[2.5rem] rounded-[.5rem]  hover:btn-animation transition-all ${
+        className={`w-full h-[2.5rem] rounded-[.5rem] font-semibold hover:btn-animation transition-all ${
           primary
             ? "text-button-color-primary bg-button-background-color-primary hover:text-button-hover-color-primary hover:bg-button-hover-background-color-primary"
             : "text-button-color-secondary bg-button-background-color-secondary hover:text-button-hover-color-secondary hover:bg-button-hover-background-color-secondary"
