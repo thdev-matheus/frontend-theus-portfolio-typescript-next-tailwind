@@ -51,6 +51,6 @@ body::-webkit-scrollbar {
 
 @media not all and (min-width: 640px) {
  body {
-  padding: 0 1rem 2rem 1rem;
+  padding: 0 1rem 2rem;
  } 
 }
