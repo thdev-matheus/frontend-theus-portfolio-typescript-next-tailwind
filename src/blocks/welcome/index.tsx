@@ -21,9 +21,9 @@ export default function WelcomeBlock() {
           Não é só o que você faz que é importante, mas também como você faz.
         </p>
 
-        <div className="w-[9rem]">
+        <a href="#about" className="w-[9rem]">
           <C.Button>Saiba mais</C.Button>
-        </div>
+        </a>
       </div>
 
       <div className="w-1/2 max-md:w-full">

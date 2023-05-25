@@ -10,11 +10,12 @@ export default function AboutMeBlock() {
 
       <div className="w-2/3 max-md:w-full">
         <p className="leading-8 paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex
-          magna, imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam
-          a ipsum finibus, dictum leo non, ultrices dui. Nunc id felis pharetra,
-          vehicula enim in, suscipit nisi. Mauris eget sapien a velit facilisis
-          ullamcorper feugiat nec orci. Duis ac iaculis turpis, at feugiat orci.
+          Desenvolvedor Web e Mobile, músico, designer gráfico e apaixonado por
+          ensinar. Estou sempre em busca de desafios. Atualmente estou estudando
+          Next.JS, Typescript e Tailwind.CSS e pretendo me aprofundar em testes,
+          tanto para o front end quanto para o back end. Tenho dois grandes
+          sonhos: O primeiro é contribuir com a comunidade de tecnologia de
+          forma significativa, O segundo é poder algum dia é ensinar as pessoas.
         </p>
       </div>
     </section>

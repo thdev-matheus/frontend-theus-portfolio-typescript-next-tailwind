@@ -35,9 +35,9 @@ export default function HeaderBlock() {
           </a>
         </nav>
 
-        <div className="w-[9rem]">
+        <a href="#contact" className="w-[9rem]">
           <C.Button>Contato</C.Button>
-        </div>
+        </a>
       </header>
     </>
   );
