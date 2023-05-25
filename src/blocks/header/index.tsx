@@ -5,7 +5,7 @@ export default function HeaderBlock() {
   return (
     <>
       <div className="w-full h-24 max-sm:h-36 mb-44"></div>
-      <header className="fixed flex items-center justify-between w-full h-24 max-sm:h-40 max-sm:py-4 max-sm:flex-col headerbg">
+      <header className="fixed flex items-center justify-between w-full h-24 max-md:h-40 max-md:py-4 max-md:flex-col md:px-32 lg:px-64 headerbg">
         <Image
           src="logo.svg"
           alt="logo"
@@ -14,7 +14,7 @@ export default function HeaderBlock() {
           className="w-[100px]"
         />
 
-        <nav className="flex gap-12">
+        <nav className="flex gap-12 max-lg:gap-5">
           <a
             href="#about"
             className="font-semibold hover:btn-animation hover:text-color-primary"

@@ -5,7 +5,7 @@ export default function StacksBlock() {
   return (
     <section
       id="stacks"
-      className="flex flex-col w-full gap-4 mb-20 scroll-mt-24"
+      className="flex flex-col w-full gap-4 mb-20 max-md:scroll-mt-44 md:scroll-mt-24"
     >
       <h2 className="title-2">Tecnologias Front End</h2>
       <ul className="flex flex-wrap justify-center w-full gap-4 mb-10">
