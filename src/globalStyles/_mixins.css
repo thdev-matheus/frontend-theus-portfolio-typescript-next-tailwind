@@ -1,0 +1,55 @@
+@tailwind utilities;
+
+@layer utilities {
+  .title-1 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .title-2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .title-3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  .label {
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+  
+  .link {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .btn-animation {
+    translate: 0 -0.3rem;
+    
+    transition: .8s;
+  }
+
+  .headerbg {
+    background: linear-gradient(180deg, #0C0C0C 0%, #0F0F0Ffa 100%);
+  }
+
+  @media (max-width: 767px) {
+    .title-1 {
+      font-weight: bold;
+      font-size: 2.6rem;
+    }
+    
+    .title-2 {
+      font-weight: bold;
+      font-size: 2.25rem;
+    }
+  }
+}
