@@ -15,7 +15,7 @@ export default function AboutMeBlock() {
           Next.JS, Typescript e Tailwind.CSS e pretendo me aprofundar em testes,
           tanto para o front end quanto para o back end. Tenho dois grandes
           sonhos: O primeiro é contribuir com a comunidade de tecnologia de
-          forma significativa, O segundo é poder algum dia é ensinar as pessoas.
+          forma significativa, O segundo é poder algum dia ensinar as pessoas.
         </p>
       </div>
     </section>

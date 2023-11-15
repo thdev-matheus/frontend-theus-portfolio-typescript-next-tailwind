@@ -24,6 +24,7 @@ import {
   SiPostgresql,
   SiSqlite,
   SiDjango,
+  SiExpress,
 } from "react-icons/si";
 
 export const stacksFront: T.IStack[] = [
@@ -104,6 +105,11 @@ export const stacksBack: T.IStack[] = [
     id: uuid(),
     name: "Node.JS",
     icon: FaNode,
+  },
+  {
+    id: uuid(),
+    name: "Express.JS",
+    icon: SiExpress,
   },
   {
     id: uuid(),
